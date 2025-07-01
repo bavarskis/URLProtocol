@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86B69A0A2D9C33E9006FFEFA /* AdyenNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = 86B69A092D9C33E9006FFEFA /* AdyenNetworking */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86B699812D9BD9AE006FFEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86B699682D9BD9AD006FFEFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86B6996F2D9BD9AD006FFEFA;
+			remoteInfo = URLProtocol;
+		};
+		86B6998B2D9BD9AE006FFEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86B699682D9BD9AD006FFEFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86B6996F2D9BD9AD006FFEFA;
+			remoteInfo = URLProtocol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86B699702D9BD9AD006FFEFA /* URLProtocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLProtocol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B699802D9BD9AE006FFEFA /* URLProtocolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLProtocolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B6998A2D9BD9AE006FFEFA /* URLProtocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLProtocolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		86B699722D9BD9AD006FFEFA /* URLProtocol */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = URLProtocol;
+			sourceTree = "<group>";
+		};
+		86B699832D9BD9AE006FFEFA /* URLProtocolTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = URLProtocolTests;
+			sourceTree = "<group>";
+		};
+		86B6998D2D9BD9AE006FFEFA /* URLProtocolUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = URLProtocolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86B6996D2D9BD9AD006FFEFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B69A0A2D9C33E9006FFEFA /* AdyenNetworking in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B6997D2D9BD9AE006FFEFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B699872D9BD9AE006FFEFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86B699672D9BD9AD006FFEFA = {
+			isa = PBXGroup;
+			children = (
+				86B699722D9BD9AD006FFEFA /* URLProtocol */,
+				86B699832D9BD9AE006FFEFA /* URLProtocolTests */,
+				86B6998D2D9BD9AE006FFEFA /* URLProtocolUITests */,
+				86B699712D9BD9AD006FFEFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86B699712D9BD9AD006FFEFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86B699702D9BD9AD006FFEFA /* URLProtocol.app */,
+				86B699802D9BD9AE006FFEFA /* URLProtocolTests.xctest */,
+				86B6998A2D9BD9AE006FFEFA /* URLProtocolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86B6996F2D9BD9AD006FFEFA /* URLProtocol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B699942D9BD9AE006FFEFA /* Build configuration list for PBXNativeTarget "URLProtocol" */;
+			buildPhases = (
+				86B6996C2D9BD9AD006FFEFA /* Sources */,
+				86B6996D2D9BD9AD006FFEFA /* Frameworks */,
+				86B6996E2D9BD9AD006FFEFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				86B699722D9BD9AD006FFEFA /* URLProtocol */,
+			);
+			name = URLProtocol;
+			packageProductDependencies = (
+				86B69A092D9C33E9006FFEFA /* AdyenNetworking */,
+			);
+			productName = URLProtocol;
+			productReference = 86B699702D9BD9AD006FFEFA /* URLProtocol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86B6997F2D9BD9AE006FFEFA /* URLProtocolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B699972D9BD9AE006FFEFA /* Build configuration list for PBXNativeTarget "URLProtocolTests" */;
+			buildPhases = (
+				86B6997C2D9BD9AE006FFEFA /* Sources */,
+				86B6997D2D9BD9AE006FFEFA /* Frameworks */,
+				86B6997E2D9BD9AE006FFEFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86B699822D9BD9AE006FFEFA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				86B699832D9BD9AE006FFEFA /* URLProtocolTests */,
+			);
+			name = URLProtocolTests;
+			packageProductDependencies = (
+			);
+			productName = URLProtocolTests;
+			productReference = 86B699802D9BD9AE006FFEFA /* URLProtocolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86B699892D9BD9AE006FFEFA /* URLProtocolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B6999A2D9BD9AE006FFEFA /* Build configuration list for PBXNativeTarget "URLProtocolUITests" */;
+			buildPhases = (
+				86B699862D9BD9AE006FFEFA /* Sources */,
+				86B699872D9BD9AE006FFEFA /* Frameworks */,
+				86B699882D9BD9AE006FFEFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86B6998C2D9BD9AE006FFEFA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				86B6998D2D9BD9AE006FFEFA /* URLProtocolUITests */,
+			);
+			name = URLProtocolUITests;
+			packageProductDependencies = (
+			);
+			productName = URLProtocolUITests;
+			productReference = 86B6998A2D9BD9AE006FFEFA /* URLProtocolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86B699682D9BD9AD006FFEFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					86B6996F2D9BD9AD006FFEFA = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					86B6997F2D9BD9AE006FFEFA = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 86B6996F2D9BD9AD006FFEFA;
+					};
+					86B699892D9BD9AE006FFEFA = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 86B6996F2D9BD9AD006FFEFA;
+					};
+				};
+			};
+			buildConfigurationList = 86B6996B2D9BD9AD006FFEFA /* Build configuration list for PBXProject "URLProtocol" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86B699672D9BD9AD006FFEFA;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				86B69A082D9C33E9006FFEFA /* XCRemoteSwiftPackageReference "adyen-networking-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 86B699712D9BD9AD006FFEFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86B6996F2D9BD9AD006FFEFA /* URLProtocol */,
+				86B6997F2D9BD9AE006FFEFA /* URLProtocolTests */,
+				86B699892D9BD9AE006FFEFA /* URLProtocolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86B6996E2D9BD9AD006FFEFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B6997E2D9BD9AE006FFEFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B699882D9BD9AE006FFEFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86B6996C2D9BD9AD006FFEFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B6997C2D9BD9AE006FFEFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B699862D9BD9AE006FFEFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86B699822D9BD9AE006FFEFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86B6996F2D9BD9AD006FFEFA /* URLProtocol */;
+			targetProxy = 86B699812D9BD9AE006FFEFA /* PBXContainerItemProxy */;
+		};
+		86B6998C2D9BD9AE006FFEFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86B6996F2D9BD9AD006FFEFA /* URLProtocol */;
+			targetProxy = 86B6998B2D9BD9AE006FFEFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		86B699922D9BD9AE006FFEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86B699932D9BD9AE006FFEFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86B699952D9BD9AE006FFEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"URLProtocol/Preview Content\"";
+				DEVELOPMENT_TEAM = 2R9LLP3W6S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adyen.URLProtocol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86B699962D9BD9AE006FFEFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"URLProtocol/Preview Content\"";
+				DEVELOPMENT_TEAM = 2R9LLP3W6S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adyen.URLProtocol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86B699982D9BD9AE006FFEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2NYSS5932;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adyen.URLProtocolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLProtocol.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/URLProtocol";
+			};
+			name = Debug;
+		};
+		86B699992D9BD9AE006FFEFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2NYSS5932;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adyen.URLProtocolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLProtocol.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/URLProtocol";
+			};
+			name = Release;
+		};
+		86B6999B2D9BD9AE006FFEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2NYSS5932;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adyen.URLProtocolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = URLProtocol;
+			};
+			name = Debug;
+		};
+		86B6999C2D9BD9AE006FFEFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2NYSS5932;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adyen.URLProtocolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = URLProtocol;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86B6996B2D9BD9AD006FFEFA /* Build configuration list for PBXProject "URLProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B699922D9BD9AE006FFEFA /* Debug */,
+				86B699932D9BD9AE006FFEFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B699942D9BD9AE006FFEFA /* Build configuration list for PBXNativeTarget "URLProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B699952D9BD9AE006FFEFA /* Debug */,
+				86B699962D9BD9AE006FFEFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B699972D9BD9AE006FFEFA /* Build configuration list for PBXNativeTarget "URLProtocolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B699982D9BD9AE006FFEFA /* Debug */,
+				86B699992D9BD9AE006FFEFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B6999A2D9BD9AE006FFEFA /* Build configuration list for PBXNativeTarget "URLProtocolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B6999B2D9BD9AE006FFEFA /* Debug */,
+				86B6999C2D9BD9AE006FFEFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		86B69A082D9C33E9006FFEFA /* XCRemoteSwiftPackageReference "adyen-networking-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:Adyen/adyen-networking-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		86B69A092D9C33E9006FFEFA /* AdyenNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86B69A082D9C33E9006FFEFA /* XCRemoteSwiftPackageReference "adyen-networking-ios" */;
+			productName = AdyenNetworking;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 86B699682D9BD9AD006FFEFA /* Project object */;
+}

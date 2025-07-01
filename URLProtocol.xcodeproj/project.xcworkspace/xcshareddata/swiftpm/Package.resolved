@@ -1,0 +1,15 @@
+{
+  "originHash" : "b6d2e6789b2ec4f3a1daa11670362c75fe26282ef5f9439e9e79ca9bfc2d9eb0",
+  "pins" : [
+    {
+      "identity" : "adyen-networking-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:Adyen/adyen-networking-ios.git",
+      "state" : {
+        "revision" : "43fd5d93f8587623eb134e3968f099e0417e74f6",
+        "version" : "3.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}
